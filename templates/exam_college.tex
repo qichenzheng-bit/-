@@ -1,0 +1,21 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[UTF8]{ctex}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{geometry}
+\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+\usepackage{enumitem}
+\setlist[enumerate]{label=\arabic*., ref=\arabic*}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{\textit{MathPulse 大学卷}}
+\chead{\textbf{{TITLE}}}
+\rhead{总分：{TOTAL_SCORE}分}
+\renewcommand{\headrulewidth}{0.4pt}
+\begin{document}
+\begin{center}
+\LARGE{\textbf{{TITLE}}}\\[0.3cm]
+\large{满分：{TOTAL_SCORE}分 \quad 考试时间：120分钟}
+\end{center}
+\vspace{0.5cm}
+{QUESTIONS}
+\end{document}
